@@ -1,0 +1,19 @@
+.pokemonCard{
+    border: 3px solid rgba(49, 1, 1, 0.884);
+    flex: 20%;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s ease;
+    background-image: linear-gradient(to right bottom, #ffffff, #fdfefd, #fcfcfc, #fafbfa, #f9f9f9);
+
+}
+.pokemonCard:hover{
+    transform: translateY(-15px) scale(1.05);
+    transition: 0.3s ease;
+    opacity: 0.8;
+}
+.img{
+    width: 100px;
+}

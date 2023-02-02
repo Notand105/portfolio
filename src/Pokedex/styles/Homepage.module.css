@@ -1,0 +1,23 @@
+.Homepage{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    background:linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/2a860bb0-1d61-4ac2-b998-cc9196e003be/dd0vqwh-dae04071-ef18-4730-aaad-3ea7b0a9998e.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzJhODYwYmIwLTFkNjEtNGFjMi1iOTk4LWNjOTE5NmUwMDNiZVwvZGQwdnF3aC1kYWUwNDA3MS1lZjE4LTQ3MzAtYWFhZC0zZWE3YjBhOTk5OGUucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.Bo_rEEkDN_t5tkWgNzTU8nQssGQssC2RrO9XUoPA47Q');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+}
+.input{
+    width: 80%;
+    height: 40px;
+}
+.pokemonContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin: 30px;
+}
