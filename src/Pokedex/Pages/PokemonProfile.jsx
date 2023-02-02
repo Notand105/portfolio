@@ -28,18 +28,21 @@ const PokemonProfile = () => {
     <div className={styles.pokemonProfile}>
       <button onClick={handleBack} className={styles.btn}>
         <ArrowBackIosNewOutlinedIcon />
-        Back to home{" "}
+        Back to Dex{" "}
       </button>
       {ready && (
         <div className={styles.container}>
-          <div className={styles.img}>
+          <div className={styles.imgContainer}>
             <img
+            className={styles.img}
               src={pokemonData.sprites.other["official-artwork"].front_default}
               alt={pokemonData.name}
             />
           </div>
           <div className={styles.stats}>
-            <h1 style={{fontSize:'4rem', color:'white'}}>{pokemonData.name.toUpperCase()}</h1>
+            <h1 className={styles.pokemonName}>
+              {pokemonData.name.toUpperCase()}
+            </h1>
             <div className={styles.typeContainer}>
               {pokemonData.types.map((type, index) => (
                 <div key={index}>

@@ -1,8 +1,9 @@
 .pokemonProfile{
     padding-top: 30px;
     background:linear-gradient(rgba(0, 0, 0, 0.90), rgba(0, 0, 0, 0.90)), url('https://cdn.fansshare.com/photo/anime/pokemon-anime-simple-background-heatran-white-background-wallpaper-simple-1236063193.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-repeat: repeat;
+    background-size: cover;
+    overflow: hidden;
     color: white;
 }
 .container{
@@ -12,7 +13,7 @@
     flex-wrap: wrap;
     width: 100vw;
 }
-.img{
+.imgContainer{
     flex:40%;
 }
 .stats{
@@ -34,6 +35,12 @@
     align-items: center;
     color: whitesmoke;
 }
+
+.pokemonName{
+    color: white;
+    font-size: 4rem;
+}
+
 .statContainer{
     padding: 2px;
     padding-top: 10px;
@@ -68,4 +75,47 @@
     transition: 0.2s ease;
     cursor: pointer;
     font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 950px) {
+
+    .container{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .img{
+        max-width: 400px;
+        max-height: 400px;
+    }
+    
+}
+@media only screen and (max-width: 550px) {
+    .Container{
+        width: 300px;
+        margin-left: -100px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .pokemonName{
+        font-size: 2rem;
+    }
+    .img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+
+}
+@media only screen and (max-width: 361px) {
+    .statContainer{
+        width: 100vw;
+    }
+    .pokemonName{
+        font-size: 2rem;
+    }
+    .img{
+        max-width: 300px;
+        max-height: 300px;
+    }
+  
 }
