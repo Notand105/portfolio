@@ -6,7 +6,7 @@ const ProjectsData = [
     {
         id: 1,
         name: 'Random User Generator',
-        link: 'randomuser',
+        link: 'randomUser',
         description: 'Fetching https://randomuser.me/api/ to get fake user data',
         img: RandomUser
 
@@ -14,7 +14,7 @@ const ProjectsData = [
     {
         id: 2,
         name: 'Task List',
-        link: 'tasklist',
+        link: 'taskList',
         description: 'Simple task list application, using React Context, useContext() and useReducer() to manage state',
         img:  taskList
 

@@ -20,7 +20,7 @@ const Portfolio = () => {
           <Route path="/portfolio/projects/randomUser" element={<RandomUser />} />
           <Route path="/portfolio/projects/taskList" element={<TaskList />} />
           <Route path="/portfolio/projects/pokedex" element={<Pokedex />} />
-          <Route path="/portfolioprojects/pokedex/:id" element={ <PokemonProfile /> } />
+          <Route path="/portfolio/projects/pokedex/:id" element={ <PokemonProfile /> } />
 
         </Routes>
       </div>

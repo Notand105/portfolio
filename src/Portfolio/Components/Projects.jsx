@@ -9,7 +9,7 @@ const Projects = () => {
   const navigate = useNavigate()
 
   const handleTravel = (location) =>{
-    navigate(`/projects/${location}`)
+    navigate(`/portfolio/projects/${location}`)
   }
 
   return (
