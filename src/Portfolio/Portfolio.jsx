@@ -15,12 +15,12 @@ const Portfolio = () => {
       <div className={styles.webContainer}>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Homepage />} />
-          <Route path='/projects' element={<Projects />} />
-          <Route path="/projects/randomUser" element={<RandomUser />} />
-          <Route path="/projects/taskList" element={<TaskList />} />
-          <Route path="/projects/pokedex" element={<Pokedex />} />
-          <Route path="projects/pokedex/:id" element={ <PokemonProfile /> } />
+          <Route path="/portfolio" element={<Homepage />} />
+          <Route path='/portfolio/projects' element={<Projects />} />
+          <Route path="/portfolio/projects/randomUser" element={<RandomUser />} />
+          <Route path="/portfolio/projects/taskList" element={<TaskList />} />
+          <Route path="/portfolio/projects/pokedex" element={<Pokedex />} />
+          <Route path="/portfolioprojects/pokedex/:id" element={ <PokemonProfile /> } />
 
         </Routes>
       </div>

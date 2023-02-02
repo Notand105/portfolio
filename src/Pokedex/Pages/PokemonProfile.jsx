@@ -21,7 +21,7 @@ const PokemonProfile = () => {
   }, []);
 
   const handleBack = () => {
-    navigate("/projects/pokedex");
+    navigate("/portfolio/projects/pokedex");
   };
 
   return (
